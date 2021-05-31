@@ -1,0 +1,17 @@
+.list {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+    span {
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        transition: all 1s;
+    }
+}
